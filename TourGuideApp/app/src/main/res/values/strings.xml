@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="historical_tab">Historical Sites</string>
+    <string name="historical0.name">Ancient Roman Amphitheater</string>
+    <string name="historical0.overview">Built in the 2nd century AD, this Roman amphitheater has 13 semicircular tiers made of white and gray marble.</string>
+    <string name="historical0.location">Location: Ismail Mahana Road Kom El Dekka Gharb, Alexandria</string>
+    <string name="historical1.name">King Farouk Palace</string>
+    <string name="historical1.overview">This sprawling property was the summer home of controversial King Farouk who assumed power at the age of 16 in 1936.</string>
+    <string name="historical1.location">Location: Inside Al-Montaza Gardens, Alexandria</string>
+    <string name="historical2.name">Catacombs of Kom el Shoqafa</string>
+    <string name="historical2.overview">An ancient circular staircase leads down into these tombs that were tunneled into the bedrock during the age of the Antonine emporers (2nd century AD).</string>
+    <string name="historical2.location">Location: Kom Al Shokafa, Alexandria</string>
+    <string name="historical3.name">Chatby Tombs</string>
+    <string name="historical3.overview">The Chatby tombs are dating back to 3rd century BC, just before the end of the Pharaonic period. At the time of their construction, there was a huge amount of Greek and Roman influence, although the Greeks were still in power at the time. This merging of cultures can still be seen to this day, not only when visiting the tombs, but also throughout the city of Alexandria. </string>
+    <string name="historical3.location">Location: Port Said Sreet, Alexandria </string>
+
+    <string name="sights_tab">Sights And Landmarks</string>
+    <string name="sights0.name">Bibliotheca Alexandrina</string>
+    <string name="sights0.overview">A re-imagining of Alexandria\'s ancient Great Library, this gorgeously designed cultural center contains a host of museums as well as one of the modern world\'s most ambitious libraries. Its architecture - a giant sun disk - presides over the waterfront Corniche, while inside, a huge reading room can hold eight million volumes.</string>
+    <string name="sights0.location">Location: El Shatby, Alexandria </string>
+    <string name="sights1.name">Catacombs of Kom el Shoqafa</string>
+    <string name="sights1.overview">An ancient circular staircase leads down into these tombs that were tunneled into the bedrock during the age of the Antonine emporers (2nd century AD).</string>
+    <string name="sights1.location">Location: Kom Al Shokafa, Alexandria </string>
+    <string name="sights2.name">Fort Qaitbey</string>
+    <string name="sights2.overview">Resembling an imposing castle fortress, this citadel was built in the 1480s by Sultan Qaitbey on the site of the Pharos Lighthouse, to protect the city from the crusaders who used to attack the city by sea.</string>
+    <string name="sights2.location">Location: Eastern harbor, Alexandria</string>
+    <string name="sights3.name">Royal Jewelry Museum</string>
+    <string name="sights3.overview">It is located in the former palace of Princess Fatma Al-Zahra\'. The building\'s halls contain an inestimable collection of jewels and jewelry of the Muhammad Ali Dynasty.</string>
+    <string name="sights3.location">Location: 21 Ahmed Yehia Street Zizinia, Alexandria</string>
+
+    <string name="cultural_tab">Cultural And Activity Centers</string>
+    <string name="cultural0.name">Montazah Gardens</string>
+    <string name="cultural0.overview">Royal gardens of King Faruk. The king was the last Egyptian monarch.</string>
+    <string name="cultural0.location">Location: Montaza Palace Al Mandarah Bahri, Alexandria</string>
+    <string name="cultural1.name">Sub Marine diving center</string>
+    <string name="cultural1.overview">Located in many sites in the city. One of these sites is The “Island of Pharos” diving site which is home to more than 5000 archeological pieces scattered on an area of 5000 sq m.Columns, statues and sphinxes (Greek, Roman &amp; Pharaonic) have been lying there for ages, you’ll also see parts of the wall that once surrounded the city and ruins from the famous ancient Alexandrine lighthouse that was considered as an architectural wonder and the tallest building on earth reaching up to 117 metres.</string>
+    <string name="cultural1.location">Location: Outside the Eastern harbor,Alexandria Egypt</string>
+    <string name="cultural2.name">Alexandria Opera House</string>
+    <string name="cultural2.overview">The Alexandria Opera House was constructed in 1918 during the reign of Sultan Fuad I and named “Mohamed Ali Theatre”.</string>
+    <string name="cultural2.location">Location: Fouad Street, El-raml station</string>
+
+    <string name="religious_tab">Religious Places</string>
+    <string name="religious0.name">Mosque of Abu al-Abbas al-Mursi</string>
+    <string name="religious0.overview">It is dedicated to the 13th century Murcian Andalusi Sufi saint Abul Abbas al-Mursi, whose tomb it contains</string>
+    <string name="religious0.location">Location: Anfoushi neighborhood of Alexandria, near the Citadel of Qaitbay.</string>
+    <string name="religious1.name">Saint Mark\'s Coptic Orthodox Cathedral</string>
+    <string name="religious1.overview">The former seat of the Coptic Orthodox Patriarch prior to being moved to Cairo in 1968. This Cathedral is an excellent example of Coptic architecture and is a wonder to behold</string>
+    <string name="religious1.location">Location: 19 Qesm Al Attarin, Alexandria</string>
+    <string name="religious2.name">Deir Mar Mina (St. Mina Monastery)</string>
+    <string name="religious2.overview">located in the Western Desert near Alexandria. It is dedicated to Saint Menas.</string>
+    <string name="religious2.location">Location: Mariut, Alexandria</string>
+    <string name="religious3.name">El Qaed Ibrahim Mosque</string>
+    <string name="religious3.overview">one of the most famous mosques built in Alexandria in the area of The Sand Station,in Egypt, is famous for its long and graceful minaret and also attracting worshippers from all the neighborhoods of Alexandria, especially in the month of Ramadan. Its construction dates back to 1948 and was designed by Egyptian-based Italian architect Mario Rossi. </string>
+    <string name="religious3.location">Location: Mahtet El Raml Square, Alexandria</string>
+
+
+
+
+</resources>
