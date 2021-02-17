@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
@@ -26,9 +28,11 @@ public class SightsFragment extends Fragment {
         sights.add(new Place(getString(R.string.sights2_name), getString(R.string.sights2_overview), getString(R.string.sights2_location), R.drawable.fortqayetbey2));
         sights.add(new Place(getString(R.string.sights3_name), getString(R.string.sights3_overview), getString(R.string.sights3_location), R.drawable.royal_jewelary_meuseum));
 
-        PlaceAdapter mAdapter = new PlaceAdapter(getContext(), sights);
-        ListView placeList = (ListView) rootView.findViewById(R.id.places_list);
-        placeList.setAdapter(mAdapter);
+        RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
+        PlaceAdapter adapter = new PlaceAdapter(sights);
+        recyclerView.setHasFixedSize(false);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerView.setAdapter(adapter);
 
         return rootView;
     }

@@ -1,7 +1,7 @@
 package com.example.tourguideapp;
 
-public class Place {
-    static private boolean hasImage;
+public class Place  {
+    private boolean hasImage;
     private String name;
     private String overView;
     private String location;

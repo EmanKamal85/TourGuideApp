@@ -3,6 +3,8 @@ package com.example.tourguideapp;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,10 +29,11 @@ public class HistoricalFragment extends Fragment {
         historicals.add(new Place(getString(R.string.historical2_name), getString(R.string.historical2_overview), getString(R.string.historical2_location)));
         historicals.add(new Place(getString(R.string.historical3_name), getString(R.string.historical3_overview), getString(R.string.historical3_location)));
 
-        PlaceAdapter mAdapter = new PlaceAdapter(getActivity(), historicals);
-        ListView placeList = (ListView) rootView.findViewById(R.id.places_list);
-        placeList.setAdapter(mAdapter);
-
+        RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
+        PlaceAdapter adapter = new PlaceAdapter(historicals);
+        recyclerView.setHasFixedSize(false);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerView.setAdapter(adapter);
         return rootView;
     }
 }
