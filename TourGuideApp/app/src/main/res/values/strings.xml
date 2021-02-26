@@ -55,7 +55,11 @@
     <string name="religious3.overview">one of the most famous mosques built in Alexandria in the area of The Sand Station,in Egypt, is famous for its long and graceful minaret and also attracting worshippers from all the neighborhoods of Alexandria, especially in the month of Ramadan. Its construction dates back to 1948 and was designed by Egyptian-based Italian architect Mario Rossi. </string>
     <string name="religious3.location">Location: Mahtet El Raml Square, Alexandria</string>
 
-
-
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

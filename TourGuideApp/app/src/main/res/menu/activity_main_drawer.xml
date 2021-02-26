@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_historicals"
+            android:icon="@drawable/history36x36"
+            android:title="@string/historical_tab" />
+        <item
+            android:id="@+id/nav_sights"
+            android:icon="@drawable/landmark"
+            android:title="@string/sights_tab" />
+        <item
+            android:id="@+id/nav_culturals"
+            android:icon="@drawable/culture"
+            android:title="@string/cultural_tab" />
+
+        <item
+            android:id="@+id/nav_religious"
+            android:icon="@drawable/religion"
+            android:title="@string/religious_tab" />
+    </group>
+</menu>

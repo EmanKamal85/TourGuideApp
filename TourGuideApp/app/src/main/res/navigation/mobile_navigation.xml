@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_historicals">
+
+    <fragment
+        android:id="@+id/nav_historicals"
+        android:name="com.example.tourguideapp.HistoricalFragment"
+        android:label="@string/historical_tab"
+        tools:layout="@layout/activity_category" />
+
+    <fragment
+        android:id="@+id/nav_sights"
+        android:name="com.example.tourguideapp.SightsFragment"
+        android:label="@string/sights_tab"
+        tools:layout="@layout/activity_category" />
+
+    <fragment
+        android:id="@+id/nav_culturals"
+        android:name="com.example.tourguideapp.CulturalsFragment"
+        android:label="@string/cultural_tab"
+        tools:layout="@layout/activity_category" />
+
+    <fragment
+        android:id="@+id/nav_religious"
+        android:name="com.example.tourguideapp.ReligiousFragment"
+        android:label="@string/religious_tab"
+        tools:layout="@layout/activity_category" />
+
+</navigation>
